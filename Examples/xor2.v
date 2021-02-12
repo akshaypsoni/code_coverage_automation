@@ -1,3 +1,5 @@
+//Verilog code for xor gate using Switch level modelling
+
 module xor2(a,b,c);
   input a,b;
   output c;
