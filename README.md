@@ -3,9 +3,12 @@ TCL-TK script / do script to find code coverage for all modules in folder
 
 Note: Tested on Questa Sim Software
 
-1. module name and testbench name should be as follows:
+1. Verilog code name, module name and testbench name should be as follows:
    
-   for example, 
+   for example,
+   
+    Verilog code => fulladder.v
+    
     module name => fulladder
     
     testbench name => fullader_tb (Suffix "_tb")
