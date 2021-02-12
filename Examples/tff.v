@@ -1,3 +1,5 @@
+//Verilog code for D-flipflop using Gate level modelling
+
 module d_flipflop(q,qn,d,clk,pre,clr);
   input d,clk,pre,clr;
   output q,qn;
