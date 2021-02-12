@@ -1,3 +1,5 @@
+//Verilog code for D-flipflop Asynchronous Reset
+
 module dff(q,d,rst,clk);
   input d,rst,clk;
   output reg q;
