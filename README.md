@@ -1,7 +1,7 @@
 # code_coverage_automation
 TCL-TK script / do script to find code coverage for all modules in folder 
 
-Note: Tested on Questasim Software
+Note: Tested on Questa Sim Software
 
 1. module name and testbench name should be as follows:
    
