@@ -16,8 +16,10 @@ Note: Tested on Questa Sim Software
 2. Copy do script in the same folder of design and testbench folder.
 
 3. Open Questa Sim Software, go to destination folder and Run the script as follows:
-    do coverage.do 
-    do coverage_all.do
+    
+    RUN => do coverage.do 
+    
+    RUN => do coverage_all.do
 
 4. Now,Script automatically run every module and find code coverage for that. 
 
