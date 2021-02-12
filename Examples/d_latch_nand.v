@@ -1,3 +1,5 @@
+//Verilog code for D-latch using switch level
+
 module d_latch(q,d,en);
   input d,en;
   output q;
