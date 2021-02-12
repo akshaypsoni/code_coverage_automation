@@ -1,3 +1,5 @@
+//Verilog code for decoder 2 X 4 using Gate level modelling
+
 module decode2x4(y,a,b);
   input a,b;
   output [3:0]y;
@@ -7,7 +9,6 @@ module decode2x4(y,a,b);
   and(y[2],a,!b);
   and(y[3],a,b);
   
-
 endmodule
 
 module decode2x4_gate_tb;
