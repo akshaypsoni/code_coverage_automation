@@ -12,19 +12,35 @@ gets stdin filename
 
 set f [string trimright $filename ".v"]
 
+#Check file present in folder if present then delete the last file
 if [ file exists $f ] {
     file delete -force $f
 }
-    
+
 set testbench $f
 append testbench "_tb"
+
+#Print filename
 puts $f
+#Print testbench name
 puts $testbench
 
+#Compile the verilog code
 vlog -cover bcst $filename
+
+#Simulate the verilog code
 vsim -novopt -coverage $testbench
+
+#add all waves to sim window
 add wave *
+#run for particular time
 run 100000
+
+#Generate coverage report in HTML
 coverage report -html
+
+#Make new folder as module name and Copy coverage report to it 
 file copy -force covhtmlreport $f
+
+#Exit the simulation
 quit -sim
