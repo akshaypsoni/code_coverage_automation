@@ -4,8 +4,10 @@ TCL-TK script / do script to find code coverage for all modules in folder
 Note: Tested on Questasim Software
 
 1. module name and testbench name should be as follows:
-    for example, 
+   
+   for example, 
     module name => fulladder
+    
     testbench name => fullader_tb (Suffix "_tb")
 
 2. Copy do script in the same folder of design and testbench folder.
