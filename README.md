@@ -12,7 +12,7 @@ Note: Tested on Questa Sim Software
 
 2. Copy do script in the same folder of design and testbench folder.
 
-3. Open Questasim Software, go to destination folder and Run the script as follows:
+3. Open Questa Sim Software, go to destination folder and Run the script as follows:
     do coverage.do 
     do coverage_all.do
 
