@@ -1,5 +1,5 @@
 # code_coverage_automation
-TCL-TK script / do script to find code coverage for all modules in folder 
+TCL-TK script / do script to find code coverage for all modules in the folder 
 
 Note: Tested on Questa Sim Software
 
