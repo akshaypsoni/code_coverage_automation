@@ -12,7 +12,7 @@ gets stdin filename
 
 set f [string trimright $filename ".v"]
 
-#Check file present in folder if present then delete the last file
+#Check previous file present in folder if present then delete the last file
 if [ file exists $f ] {
     file delete -force $f
 }
